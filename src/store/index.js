@@ -6,7 +6,8 @@ import reducers from '../reducers'
 
 const persistConfig = {
   key: 'cappture',
-  storage: AsyncStorage
+  storage: AsyncStorage,
+  whiteList: ['materias']
 }
 
 const persistReducers = persistReducer(persistConfig, reducers)
