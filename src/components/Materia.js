@@ -16,7 +16,9 @@ export default class Materia extends Component {
       salon
     } = this.props.materia
     return (
-      <TouchableOpacity onPress={() => this.props.navigate('Materia', nombre)}>
+      <TouchableOpacity
+        onPress={() => this.props.navigate('Materia', { nombre })}
+      >
         <Card containerStyle={{ marginVertical: 5 }} height={120}>
           <Card.Section body margin-0 padding-10>
             <Text text30 orange50>
