@@ -4319,7 +4319,7 @@ react-lifecycles-compat@^1.0.2:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-1.1.4.tgz#fc005c72849b7ed364de20a0f64ff58ebdc2009a"
 
-react-native-animatable@^1.1.0:
+react-native-animatable@^1.1.0, react-native-animatable@^1.2.4:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/react-native-animatable/-/react-native-animatable-1.2.4.tgz#b5fb7657e8f6edadbc26697057a327fb920b3039"
   dependencies:
@@ -4347,9 +4347,17 @@ react-native-drawer-layout@1.3.2:
   dependencies:
     react-native-dismiss-keyboard "1.0.0"
 
+react-native-icons@^0.7.1:
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/react-native-icons/-/react-native-icons-0.7.1.tgz#a05c6c87bff7bfd883903bb9b7156f5ba568f977"
+
 react-native-interactable@latest:
   version "0.1.10"
   resolved "https://registry.yarnpkg.com/react-native-interactable/-/react-native-interactable-0.1.10.tgz#65b9a68f6a84ba1c0e2ad5478b1f22ffb29c0526"
+
+react-native-popup-menu@^0.12.4:
+  version "0.12.4"
+  resolved "https://registry.yarnpkg.com/react-native-popup-menu/-/react-native-popup-menu-0.12.4.tgz#599b0ac82deaa4a5be722682e3c10ba74674314b"
 
 react-native-safe-area-view@^0.7.0:
   version "0.7.0"

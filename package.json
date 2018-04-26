@@ -9,6 +9,9 @@
   "dependencies": {
     "react": "16.3.1",
     "react-native": "0.55.2",
+    "react-native-animatable": "^1.2.4",
+    "react-native-icons": "^0.7.1",
+    "react-native-popup-menu": "^0.12.4",
     "react-native-ui-lib": "^3.3.50",
     "react-navigation": "^1.5.11",
     "react-redux": "^5.0.7",

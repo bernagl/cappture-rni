@@ -2,15 +2,15 @@ import React, { Component } from 'react'
 import { Text } from 'react-native'
 import { View } from '../components'
 
-export default class Perfil extends Component {
+export default class Tarea extends Component {
   static navigationOptions = {
-    title: 'Perfil'
+    title: 'Tarea'
   }
 
   render() {
     return (
       <View>
-        <Text>View Perfil</Text>
+        <Text>View Tarea</Text>
       </View>
     )
   }

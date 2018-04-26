@@ -1,14 +1,12 @@
 import React from 'react'
-import View from 'react-native'
+import { View, Text } from 'react-native'
 
-export default ({ Component }) => {
-  return (
-    <View style={style}>
-      <Component />
-    </View>
-  )
+export default ({ children }) => {
+  return <View style={style}>{children}</View>
 }
 
 const style = {
-  backgroundColor: 'white'
+  backgroundColor: 'white',
+  flex: 1,
+  paddingHorizontal: 10
 }
