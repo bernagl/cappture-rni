@@ -13,7 +13,7 @@ const persistConfig = {
 const persistReducers = persistReducer(persistConfig, reducers)
 
 // export default () => {
-let store = createStore(persistReducers)
+let store = createStore(persistReducers, {}, applyMiddleware(compose(thunk)))
 let persistor = persistStore(store)
 export { persistor, store }
 //   return { persistor, store }
